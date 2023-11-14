@@ -63,31 +63,80 @@ header {
     margin: 0px;
 }
 
+/* test */
 
+.image-fader {
+    width: 100%;
+    height: 90vh;
+  }
+  
+  .image-fader img {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation-name: imagefade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+  }
+  
+  @keyframes imagefade {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  .image-fader img:nth-of-type(1) {
+    animation-delay: 6s;
+  }
+  .image-fader img:nth-of-type(2) {
+    animation-delay: 4s;
+  }
+  .image-fader img:nth-of-type(3) {
+    animation-delay: 2s;
+  }
+  .image-fader img:nth-of-type(4) {
+    animation-delay: 0;
+  }  
+/* test complete */
 
-
-
-#oslo {
+/* central division editing */
+#central-division {
+    padding: 30px 0px 30px 0px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* background-color: red; */
+    background-color: #f3f3f3;
 }
 
-#helsinki {
-    height: 500px;
+#product {
+    height: 700px;
     width: 30%;
     margin: 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: #222222;
+    /* background-color: #222222; */
 }
 
-#helsinki img {
+#product img {
     height: 70%;
     width: 90%;
     object-fit: cover;
@@ -98,22 +147,22 @@ header {
     width: 90%;
 }
 
-#helsinki h6 {
+#product h6 {
     width: 100%;
     margin: 0px;
     padding: 0px;
     font-size: 25px;
-    background-color: red;
+    /* background-color: red; */
 }
 
-#helsinki p {
+#product p {
     width: 100%;
     margin: 0px;
     padding: 0px;
     font-size: 20px;
-    background-color: red;
+    /* background-color: red; */
 }
-
+/* central division editing end here */
 
 
 
@@ -159,6 +208,27 @@ header {
     color: rgb(20, 20, 20);
 }
 
+
+/* store */
+
+#store {
+    height: 50vh;
+    width: 100%;
+    background-image: url(store.jpg);
+   background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#store button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
 
 /* washington */
 #washington {
