@@ -19,26 +19,30 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: #ffffffe6;
+    backdrop-filter: blur(8px);
+    position: fixed;
 }
 
-header a {
+#headerlink {
     text-decoration: none;
     color: #111111;
     font-size: 18px;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 10px 0px;
+    border-bottom: 1px solid #111111;
 }
 
-header a img {
+#headerimage {
     height: 100px;
     margin: 0px;
     padding: 0px;
 }
 
-header button {
+#headerbutton {
     height: 50px;
     width: 100px;
-    margin: 0px;
+    margin: 0px 20px 0px 0px;
     padding: 0px;
     border: none;
     border-radius: 25px;
