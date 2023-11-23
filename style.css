@@ -57,7 +57,6 @@ header {
 }
 
 .top-division img {
-    filter: brightness(80%);
     width: 100%;
     height: 80vh;
     object-fit: cover;
@@ -108,37 +107,6 @@ header {
     animation-delay: 0;
 }
 
-/* test complete */
-
-
-#samantha {
-    height: 90vh;
-    width: 100%;
-    background-color: rgb(255, 166, 255);
-    background-image: url(https://in.cmf.tech/cdn/shop/files/buds-pro-hp_1920x.png?v=1695698615);
-    background-repeat: none;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#imagex {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-#samantha1 {
-
-    background-color: black;
-    width: 300px;
-    height: 300px;
-    margin: 0px;
-}
-
-/* test */
-/* central division editing */
 #central-division {
     padding: 30px 0px 30px 0px;
     width: 100%;
@@ -169,11 +137,12 @@ header {
 #seprator {
     height: 20%;
     width: 90%;
+    /* background-color: blue; */
 }
 
 #product h6 {
     width: 100%;
-    margin: 0px;
+    margin: 0px 0px 10px 0px;
     padding: 0px;
     font-size: 25px;
     /* background-color: red; */
@@ -187,158 +156,7 @@ header {
     /* background-color: red; */
 }
 
-/* central division editing end here */
-
-
-
-#rome {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    width: 100%;
-}
-
-#berlin {
-    height: 100%;
-    width: 60%;
-}
-
-#imagerome {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-#tokyo {
-    height: 100%;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#headingrome {
-    width: 80%;
-    margin: 20px 0px 0px 0px;
-    line-height: 35px;
-    /* background-color: rgb(49, 49, 49); */
-}
-
-#paragraphrome {
-    width: 80%;
-    margin: 0px 0px 20px 0px;
-    line-height: 25px;
-    color: rgb(20, 20, 20);
-}
-
-
-/* store */
-
-#store {
-    height: 50vh;
-    width: 100%;
-    background-image: url(store.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#store button {
-    width: 200px;
-    height: 50px;
-    margin: 10px;
-    border: 5px solid #dbdbdb;
-    background-color: #ffffff;
-}
-
-/* washington */
-#washington {
-    height: 300px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffc4fa;
-}
-
-#buttonwashington {
-    width: 60%;
-    height: 100px;
-    border: none;
-    background-color: #ffffff;
-}
-
-/* sim */
-
-#sim {
-    width: 90%;
-    margin: 0px 5% 0px 5%;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: red; */
-}
-
-#leftbox {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-}
-
-#rightbox {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    /* background-color: rgb(255, 255, 255); */
-}
-
-#headingsim {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Space Mono', monospace;
-    font-weight: 100;
-    font-size: 30px;
-    letter-spacing: 1px;
-    /* background-color: grey; */
-}
-
-#paragraphsim {
-    margin: 10px 0px 0px 0px;
-    padding: 0px;
-    font-family: 'Space Mono', monospace;
-    color: rgb(19, 19, 19);
-    /* background-color: green; */
-}
-
-#inputsim {
-    height: 60px;
-    width: 70%;
-    padding: 0px 5% 0px 5%;
-    margin: 0px;
-    border: 1px solid black;
-    background-color: transparent;
-    font-family: 'Space Mono', monospace;
-    letter-spacing: 1px;
-}
-
-#buttonsim {
-    height: 60px;
-    width: 10%;
-    border: none;
-    background-color: transparent;
-}
-
-#narobi {
+#linktree {
     display: flex;
     width: 100%;
     border-top: 1px solid rgb(202, 202, 202);
@@ -361,6 +179,62 @@ header {
 #linkben:hover {
     color: rgb(255, 123, 0);
     transition: ease-in-out 0.3s;
+}
+
+/* ........................................................... */
+
+#mailbox {
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+#leftbox {
+    width: 45%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+#headingsim {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#paragraphsim {
+    margin: 0px;
+    padding: 0px;
+    color: #222222;
+}
+
+#rightbox {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#inputsim {
+    height: 60px;
+    width: 70%;
+    padding: 0px 5% 0px 5%;
+    margin: 0px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1px;
 }
 
 footer {
