@@ -14,42 +14,40 @@ body {
 header {
     height: 100px;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: transparent;
 }
 
+header a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 18px;
+    margin: 0px 20px 0px 20px;
+}
+
 header a img {
     height: 100px;
-}
-
-#headerlist {
     margin: 0px;
     padding: 0px;
-    /* background-color: red; */
-}
-
-#headerlink {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    font-weight: 200;
-    margin: 0px 20px 0px 0px;
 }
 
 header button {
     height: 50px;
     width: 100px;
+    margin: 0px;
+    padding: 0px;
     border: none;
-    margin: 0px 10px 0px 0px;
-    background-color: skyblue;
     border-radius: 25px;
     background-color: #5865f2;
     color: #ffffff;
+    font-size: 18px;
 }
 
-
+/* ........................................................................ */
 #samantha {
     height: 90vh;
     width: 100%;
