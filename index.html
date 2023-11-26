@@ -21,17 +21,19 @@
 
     <!-- topper section contain images and links -->
     <div class="top-division">
-        <img src="otherimages/imagew.jpg" />
-        <img src="otherimages/imagex.jpg" />
-        <img src="otherimages/imagey.jpg" />
-        <img src="otherimages/imagez.jpg" />
+        <div id="image-carousel">
+            <img src="otherimages/imagew.jpg" />
+            <img src="otherimages/imagex.jpg" />
+            <img src="otherimages/imagey.jpg" />
+            <img src="otherimages/imagez.jpg" />
+        </div>
     </div>
 
     <!-- central division contain all the products  -->
     <div id="central-division">
 
         <!-- 1 -->
-        <div id="product">
+        <div id="product" onclick="navigateToPage()">
             <img src="productimages/image-hoodie.jpg" alt="image">
             <div id="seprator">
                 <h6>Loose fit Hoodie</h6>
@@ -40,7 +42,7 @@
         </div>
 
         <!-- 2 -->
-        <div id="product">
+        <div id="product" onclick="navigateToPage()" >
             <img src="productimages/image-jacket.webp" alt="image">
             <div id="seprator">
                 <h6>Loose fit Hoodie</h6>
@@ -49,7 +51,7 @@
         </div>
 
         <!-- 3 -->
-        <div id="product">
+        <div id="product" onclick="navigateToPage()">
             <img src="productimages/image-shirt.jpg" alt="image">
             <div id="seprator">
                 <h6>Loose fit Hoodie</h6>
@@ -58,7 +60,7 @@
         </div>
 
         <!-- 4 -->
-        <div id="product">
+        <div id="product" onclick="navigateToPage()">
             <img src="productimages/image-sweater.jpg" alt="image">
             <div id="seprator">
                 <h6>Loose fit Hoodie</h6>
@@ -67,7 +69,7 @@
         </div>
 
         <!-- 5 -->
-        <div id="product">
+        <div id="product" onclick="navigateToPage()">
             <img src="productimages/image-trouser.webp" alt="image">
             <div id="seprator">
                 <h6>Loose fit Hoodie</h6>
@@ -76,7 +78,7 @@
         </div>
 
         <!-- 6 -->
-        <div id="product">
+        <div id="product" onclick="navigateToPage()">
             <img src="productimages/image-tshirt.jpg" alt="image">
             <div id="seprator">
                 <h6>Loose fit Hoodie</h6>
@@ -136,7 +138,7 @@
             <p id="paragraphsim"> Sign up for brand updates and <br> news on our latest projects.</p>
         </div>
         <div id="rightbox">
-            <input type="email" id="inputsim" placeholder="your@email.com">
+            <input type="email" id="emailInput" placeholder="your@email.com">
         </div>
     </div>
 
@@ -147,6 +149,8 @@
     </footer>
     <!-- end -->
 
+
+    <script src="logic.js"></script>
 </body>
 
 </html>
