@@ -46,3 +46,9 @@ function navigateToPage() {
             emailInput.value = "";
         }
     });
+
+
+    function backtopage() {
+        // Change the window location to the desired page URL
+        window.location.href = 'product.html'; // Replace with your desired URL
+    }
